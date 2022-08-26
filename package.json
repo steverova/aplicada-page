@@ -2,7 +2,7 @@
   "homepage": "https://steverova.github.io/aplicada-page/",
   "name": "app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@hookform/error-message": "^2.0.0",
     "@hookform/resolvers": "^2.9.7",
