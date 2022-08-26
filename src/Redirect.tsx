@@ -11,10 +11,10 @@ export function Redirect() {
       <Router>
         <HashRouter basename="/">
           <Routes>
-            <Route path="Login" element={<Login />} />
+            <Route path="/Login" element={<Login />} />
             <Route path="/" element={<Login />} />
             <Route path="/Register" element={<RegisterForm />} />
-            <Route path="Home" element={<Home />} />
+            <Route path="/Home" element={<Home />} />
           </Routes>
         </HashRouter>
       </Router>
