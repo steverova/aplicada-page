@@ -5,11 +5,13 @@ DESPLIEGUE DE LA APLICACION EN GITHUB PAGES
 
 2. Agregar al package.json:
 
+<p>
 {
 "homepage": "https://usuariogithub.github.io/nombre-repositorio/",
 "name": "nombre-app",
 "version": "0.1.0",
 }
+</p>
 
 ![image info](/src/assets/makdown-images/example01.png)
 
