@@ -26,5 +26,7 @@ DESPLIEGUE DE LA APLICACION EN GITHUB PAGES
 6. hacerle push
 7. Ejecutar <span style="color:green">npm run deploy</span>
 
+
+Nota: si se está utilizando router-dom cambiar BrowserRouter por HashRouter
 </div>
 
