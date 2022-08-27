@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Routes, Route, HashRouter} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, HashRouter} from "react-router-dom";
 import Home from "./view/components/Home";
 import Login from "./view/components/Login";
 import RegisterForm from "./view/components/Register";
@@ -9,14 +9,12 @@ export function Redirect() {
     
     return (
       <Router>
-        <HashRouter basename="/">
           <Routes>
-            <Route path="/Login" element={<Login />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/" element={<Login />} />
-            <Route path="/Register" element={<RegisterForm />} />
-            <Route path="/Home" element={<Home />} />
+            <Route path="/register" element={<RegisterForm />} />
+            <Route path="/home" element={<Home />} />
           </Routes>
-        </HashRouter>
       </Router>
     );
 }
