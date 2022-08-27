@@ -26,20 +26,25 @@ DESPLIEGUE DE LA APLICACION EN GITHUB PAGES
 6. hacerle push
 7. Ejecutar <span class="npm-module">npm run deploy</span>
 
-
 </div>
 
+
 <style>
-*{
-background-color: rgb(30, 30, 30);
-color:white
-}
 
-.body{
+    *{
+        font-family: Menlo, Monaco, "Courier New", monospace;
+        color: white;
+  font-family: "Courier New";
+  line-height: 1.45;
+  max-width: 48rem;
+  padding: .25rem;
+   background-color: #222;
+  min-height: 100%;
+    }
+
+    .npm-module{
+        color: green
+    }
    
-}
+    </style>
 
-.npm-module{
-    color: green
-}
-</style>
