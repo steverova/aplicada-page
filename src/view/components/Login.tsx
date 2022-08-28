@@ -34,7 +34,7 @@ function Register() {
     ) {
       localStorage.setItem("loginData", JSON.stringify(logindata));
       navigate("/home");
-    }else{
+    } else {
       Swal.fire({
         icon: "error",
         title: "ALGO SALIO MAL",
@@ -50,18 +50,19 @@ function Register() {
   return (
     <React.Fragment>
       <Header></Header>
-      <div id="register-body">
-        <div className="container pt-5">
+      <div id="login-body" className="login-body">
+        <div className="container">
           <div className="col-md-8 col-lg-5 mx-auto">
             <div className="card">
               <div>
-                <h1 className=" p-3 d-flex justify-content-center title-header">
+                <h1 className=" pt-3 d-flex justify-content-center title-header">
                   Iniciar Sesi&oacute;n
                 </h1>
+                <hr />
               </div>
-              <div className="card-body pl-5 pr-5">
+              <div className="card-body pl-5 pr-5 ">
                 <form onSubmit={handleSubmit(onSubmit)}>
-                  <div className="form-group">
+                  <div className="form-group ">
                     <label htmlFor="">Correo</label>
                     <input
                       type="text"
@@ -147,7 +148,6 @@ function Register() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </React.Fragment>
   );
 }

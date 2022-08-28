@@ -1,5 +1,7 @@
 {
     "markdown.styles": [
         "/src/assets/css/makdown.css"
-    ]
+    ],
+    "open-in-browser.default": "Firefox",
+    "liveServer.settings.CustomBrowser": "firefox"
 }

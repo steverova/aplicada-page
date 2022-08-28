@@ -1,20 +1,22 @@
 import React from "react";
-import {HashRouter as Router, Routes, Route, HashRouter} from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./view/components/Home";
 import Login from "./view/components/Login";
 import RegisterForm from "./view/components/Register";
+
 
 
 export function Redirect() {
     
     return (
       <Router>
-          <Routes>
-            <Route path="/login" element={<Login />} />
-            <Route path="/" element={<Login />} />
-            <Route path="/register" element={<RegisterForm />} />
-            <Route path="/home" element={<Home />} />
-          </Routes>
+        <Routes>
+          <Route path="login" element={<Login />} />
+          <Route path="/" element={<Login />} />
+          <Route path="register" element={<RegisterForm />} />
+          <Route path="home" element={<Home />} />
+         
+        </Routes>
       </Router>
     );
 }

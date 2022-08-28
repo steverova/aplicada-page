@@ -1,12 +1,3 @@
-#login-body {
-  background-color: rgb(169, 105, 224);
-}
-
-#register-body {
-  background-color: rgb(153, 106, 194);
-  height: 100vh;
-  width: 100%;
-}
 
 #card-header {
   background-color: rgb(187, 141, 227);
@@ -14,9 +5,13 @@
 }
 
 .card {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); 
   border: none;
   border-radius: 15px;
+}
+
+.navbar{
+ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .margin {
@@ -44,7 +39,8 @@ input[type="password"] {
 }
 
 input[type="text"]:focus,
-input[type="number"]:focus {
+input[type="number"]:focus,
+input[type="password"]:focus {
   border: 2px solid rgb(161, 95, 218);
 }
 
@@ -71,18 +67,65 @@ span:hover {
   border-bottom-left-radius: 15px;
 }
 
-.panel-footer span{
-    color: rgb(153, 106, 194);
+.panel-footer span {
+  color: rgb(153, 106, 194);
 }
 
-.panel-footer h5{
-    color: rgb(59, 59, 59);
+.panel-footer h5 {
+  color: rgb(59, 59, 59);
 }
 
-#passwordVisibility{
+#passwordVisibility {
   accent-color: rgb(151, 72, 221);
 }
 
-#pass{
-margin-left: 1em;
+#pass {
+  margin-left: 1em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.myfooter {
+  background-color: rgb(230, 230, 230);
+  
+  width: 100%;
+  padding: 3em;
+}
+
+html {
+  height: 100%;
+}
+
+login-body {
+  background-color: rgb(50, 180, 137);
+}
+
+.register-body {
+background-color: var(--purple-pastel);
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+:root{
+  --purple-pastel: rgb(195, 177, 225);
+}
+
+.login-body {
+background-color: var(--purple-pastel);
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+
+/* dark mode */
+
+
+.shadow-top {
+    box-shadow: 0 -1px 20px -5px rgba(115,115,115,0.75);
 }

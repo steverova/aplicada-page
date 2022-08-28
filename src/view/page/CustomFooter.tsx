@@ -3,7 +3,7 @@ import React from "react";
 function CustomFooter() {
   return (
     <React.Fragment>
-      <div className=" myfooter p-3 border-top">
+      <div className=" myfooter shadow-top">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-sm-12">
@@ -29,11 +29,14 @@ function CustomFooter() {
               </div>
             </div>
           </div>
-          <div className="container">
-            <div className="row col-12">
-              <div className="mx-auto mt-3">
-                Copyright © <b>😾😾😾😾</b> 2022. Todos los derechos reservados
+        </div>
+        <div className="container">
+          <div className="row col-12">
+            <div className="mx-auto mt-3">
+              <div>
+                Copyright © <b>😾😾😾😾</b> 2022.
               </div>
+              <div>Todos los derechos reservados</div>
             </div>
           </div>
         </div>

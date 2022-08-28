@@ -4,8 +4,8 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import userSchema from "../../validations/userFormValidations";
-import Footer from "../../view/page/CustomFooter";
 import Header from "../../view/page/CustomHeader";
+import "../../assets/css/style.css";
 
 function RegisterForm() {
   const {
@@ -30,14 +30,15 @@ function RegisterForm() {
   return (
     <React.Fragment>
       <Header></Header>
-      <div id="register-body">
-        <div className="container pt-5 pb-5">
-          <div className="col-md-10 col-lg-7 mx-auto">
+      <div id="register-body" className="register-body">
+        <div className="container">
+          <div className=" col-xs-12 col-sm-12 col-md-10 col-lg-7 mx-auto">
             <div className="card ">
               <div>
-                <h1 className=" p-3 d-flex justify-content-center title-header">
+                <h1 className=" p-3 d-flex justify-content-center title-header ">
                   Agregar Persona
                 </h1>
+                <hr />
               </div>
               <div className="card-body pl-5 pr-5">
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -51,7 +52,7 @@ function RegisterForm() {
                             {...register("name", { required: true })}
                             style={{
                               border: errors.name
-                                ? "2px solid rgb(216, 52, 79)"
+                                ? "3px solid rgb(216, 52, 79)"
                                 : "",
                             }}
                             placeholder={
@@ -70,7 +71,7 @@ function RegisterForm() {
                             {...register("lastname", { required: true })}
                             style={{
                               border: errors.lastname
-                                ? "2px solid rgb(216, 52, 79)"
+                                ? "3px solid rgb(216, 52, 79)"
                                 : "",
                             }}
                             placeholder={
@@ -91,7 +92,7 @@ function RegisterForm() {
                       {...register("email", { required: true })}
                       style={{
                         border: errors.email
-                          ? "2px solid rgb(216, 52, 79)"
+                          ? "3px solid rgb(216, 52, 79)"
                           : "",
                       }}
                       placeholder={
@@ -119,7 +120,7 @@ function RegisterForm() {
                             {...register("password", { required: true })}
                             style={{
                               border: errors.password
-                                ? "2px solid rgb(216, 52, 79)"
+                                ? "3px solid rgb(216, 52, 79)"
                                 : "",
                             }}
                             placeholder={
@@ -148,7 +149,7 @@ function RegisterForm() {
                             })}
                             style={{
                               border: errors.password_confirm
-                                ? "2px solid rgb(216, 52, 79)"
+                                ? "3px solid rgb(216, 52, 79)"
                                 : "",
                             }}
                             placeholder={
@@ -199,7 +200,7 @@ function RegisterForm() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </React.Fragment>
   );
 }
