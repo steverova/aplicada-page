@@ -1,13 +1,14 @@
 {
-  "main.css": "/aplicada-page/static/css/main.5ed1e6b6.chunk.css",
-  "main.js": "/aplicada-page/static/js/main.3d04324b.chunk.js",
-  "main.js.map": "/aplicada-page/static/js/main.3d04324b.chunk.js.map",
-  "static/js/1.8547be6c.chunk.js": "/aplicada-page/static/js/1.8547be6c.chunk.js",
-  "static/js/1.8547be6c.chunk.js.map": "/aplicada-page/static/js/1.8547be6c.chunk.js.map",
+  "main.css": "/aplicada-page/static/css/main.4f41f766.chunk.css",
+  "main.js": "/aplicada-page/static/js/main.16e37084.chunk.js",
+  "main.js.map": "/aplicada-page/static/js/main.16e37084.chunk.js.map",
+  "static/js/1.aae84cfe.chunk.js": "/aplicada-page/static/js/1.aae84cfe.chunk.js",
+  "static/js/1.aae84cfe.chunk.js.map": "/aplicada-page/static/js/1.aae84cfe.chunk.js.map",
   "runtime~main.js": "/aplicada-page/static/js/runtime~main.d89d5d58.js",
   "runtime~main.js.map": "/aplicada-page/static/js/runtime~main.d89d5d58.js.map",
-  "static/css/main.5ed1e6b6.chunk.css.map": "/aplicada-page/static/css/main.5ed1e6b6.chunk.css.map",
+  "static/media/index.css": "/aplicada-page/static/media/Roboto-Light.881e150a.ttf",
+  "static/css/main.4f41f766.chunk.css.map": "/aplicada-page/static/css/main.4f41f766.chunk.css.map",
   "index.html": "/aplicada-page/index.html",
-  "precache-manifest.33fcc352d400b9520c77a1a896b09787.js": "/aplicada-page/precache-manifest.33fcc352d400b9520c77a1a896b09787.js",
+  "precache-manifest.ba5bab5cd740f9c1b02a767411489efb.js": "/aplicada-page/precache-manifest.ba5bab5cd740f9c1b02a767411489efb.js",
   "service-worker.js": "/aplicada-page/service-worker.js"
 }
