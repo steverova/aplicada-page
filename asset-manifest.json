@@ -1,7 +1,7 @@
 {
   "main.css": "/aplicada-page/static/css/main.4f41f766.chunk.css",
-  "main.js": "/aplicada-page/static/js/main.098a57f9.chunk.js",
-  "main.js.map": "/aplicada-page/static/js/main.098a57f9.chunk.js.map",
+  "main.js": "/aplicada-page/static/js/main.46327da1.chunk.js",
+  "main.js.map": "/aplicada-page/static/js/main.46327da1.chunk.js.map",
   "static/js/1.70254086.chunk.js": "/aplicada-page/static/js/1.70254086.chunk.js",
   "static/js/1.70254086.chunk.js.map": "/aplicada-page/static/js/1.70254086.chunk.js.map",
   "runtime~main.js": "/aplicada-page/static/js/runtime~main.d89d5d58.js",
@@ -9,6 +9,6 @@
   "static/media/index.css": "/aplicada-page/static/media/Roboto-Regular.8a36205b.ttf",
   "static/css/main.4f41f766.chunk.css.map": "/aplicada-page/static/css/main.4f41f766.chunk.css.map",
   "index.html": "/aplicada-page/index.html",
-  "precache-manifest.a2594e16f561bdbcdfbf5430c20dfc47.js": "/aplicada-page/precache-manifest.a2594e16f561bdbcdfbf5430c20dfc47.js",
+  "precache-manifest.884446027bfdb4bbc4dd1a34796db20d.js": "/aplicada-page/precache-manifest.884446027bfdb4bbc4dd1a34796db20d.js",
   "service-worker.js": "/aplicada-page/service-worker.js"
 }
